@@ -6,4 +6,4 @@ dubbo:
   scan:
     base-packages: com.example.service
   registry:
-    address: zookeeper://192.168.186.130:2181
+    address: zookeeper://192.168.234.128:2181
