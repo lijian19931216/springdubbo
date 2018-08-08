@@ -1,0 +1,9 @@
+server:
+  port: 8081
+dubbo:
+  application:
+    name: consumer
+  scan:
+    base-packages: com.example.service
+  registry:
+    address: zookeeper://192.168.186.130:2181
